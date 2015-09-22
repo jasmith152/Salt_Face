@@ -1,0 +1,156 @@
+@charset "utf-8";
+.at-body 
+{
+  padding: 0px;
+  margin: 0px;
+}
+  
+.at-embed-div 
+{
+  font-family: Arial,sans-serif;
+  color: #555540;
+}
+  
+.at-header-div
+{
+  text-align: center;
+  cursor: pointer;
+  font-size: 12pt;
+  margin-bottom: 7px;
+}
+  
+.at-footer-div
+{
+  text-align: left;
+  font-size: 10pt;
+  margin-bottom: 7px;
+  margin-left: 20px;
+}
+
+.at-links-div 
+{
+  font-size: 10pt;
+  text-align: center;
+}
+  
+.at-high-low-table 
+{
+  cursor: pointer;
+  margin-left: 20px;
+  border:0;
+  border-collapse: collapse;
+  padding:0;
+  font-size : 8pt;
+  margin-top: 7px;
+  margin-bottom: 9px;
+}
+  
+.at-high-low-table td.H 
+{
+  white-space: nowrap;
+  padding: 3px; 
+  border:0;
+  margin:0;
+  border-collapse: collapse;
+  background-color: #efefef;
+}
+
+.at-high-low-table td.L
+{
+  white-space: nowrap;
+  padding: 3px; 
+  border:0;
+  margin:0;
+  border-collapse: collapse;
+  background-color: #dfdfdf;
+}
+
+.at-day-table 
+{
+  width: 100%;
+  font-size: 8pt;
+  padding:0;
+  border-collapse: collapse;
+  margin:0;
+}
+  
+.at-date-prompt 
+{
+  color: #5c87b2;
+  text-align: center;
+}
+  
+.at-day-cell 
+{
+  vertical-align: top;
+  width: 117px;
+  border: 1px;
+  border-color: #948eda;
+  border-style: solid;
+}
+
+.at-no-border-day-cell 
+{
+  vertical-align: top;
+  width: 118px;
+  border: 0;
+  border-style: none;
+  margin:0;
+  padding:0;
+}
+  
+.at-hl-cell 
+{
+  width: 20%;
+  text-align: left;
+}
+  
+.at-height-cell 
+{
+  width: 40%;
+  text-align: center;
+}
+  
+.at-time-cell 
+{
+  width: 40%;
+  text-align: right;
+}
+  
+.at-embed-div a:link
+{
+  color : #034af3;
+  text-decoration : none;
+}
+
+.at-embed-div a:visited
+{
+  color: #034af3;
+  text-decoration: none;
+}
+
+.at-embed-div a:hover
+{
+  color: #1d60ff;
+  text-decoration: underline;
+}
+
+.at-embed-div a:active
+{
+  color: #12eb87;
+}
+  
+.at-graph-div img
+{
+  border: 0;
+}
+
+.at-tiny 
+{
+  font-size: 8pt;
+}
+
+.at-logo-image
+{
+  border: 0;
+}
